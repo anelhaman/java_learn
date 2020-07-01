@@ -6,6 +6,7 @@ public class mainApp {
         SimpleLogic objSimpleLogic = new SimpleLogic();
 
         System.out.println(objSimpleLogic.sum(numSet));
+        System.out.println(objSimpleLogic.min(numSet));
 
     }
 }

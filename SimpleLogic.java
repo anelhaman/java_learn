@@ -9,5 +9,17 @@ public class SimpleLogic {
 
         return total;
     }
+    public double min(double[] data){
+        double currentMin= data[0];
+
+        for (int j=1;j<data.length;j++){
+            if (data[j] < currentMin){
+                currentMin = data[j];
+            }
+        }
+
+        return currentMin;
+    }
     
+
 }
