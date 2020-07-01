@@ -31,5 +31,20 @@ public class SimpleLogic {
 
         return currentMax;
     }
+    public void reverse(double[] data){
+        double temp=data[0];
+        int mid = data.length/2;
+        int index_end = data.length-1;
+        
+        for (int j=0;j<mid;j++){
+
+            data[j] = data[index_end];
+            data[index_end] = temp;
+            temp = data[j+1];
+
+            index_end--;
+
+        }
+    }
 
 }

@@ -9,5 +9,14 @@ public class mainApp {
         System.out.println(objSimpleLogic.min(numSet));
         System.out.println(objSimpleLogic.max(numSet));
 
+        System.out.print("forward: ");
+        for (double val : numSet)
+        System.out.printf("%.0f ",val);
+
+        objSimpleLogic.reverse(numSet);
+
+        System.out.print("\nreverse: ");
+        for (double val : numSet)
+        System.out.printf("%.0f ",val);
     }
 }
