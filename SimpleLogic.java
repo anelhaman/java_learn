@@ -10,7 +10,7 @@ public class SimpleLogic {
         return total;
     }
     public double min(double[] data){
-        double currentMin= data[0];
+        double currentMin=data[0];
 
         for (int j=1;j<data.length;j++){
             if (data[j] < currentMin){
@@ -20,6 +20,16 @@ public class SimpleLogic {
 
         return currentMin;
     }
-    
+    public double max(double[] data){
+        double currentMax=data[0];
+
+        for (int j=1;j<data.length;j++){
+            if (data[j] > currentMax){
+                currentMax = data[j];
+            }
+        }
+
+        return currentMax;
+    }
 
 }

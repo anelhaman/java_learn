@@ -7,6 +7,7 @@ public class mainApp {
 
         System.out.println(objSimpleLogic.sum(numSet));
         System.out.println(objSimpleLogic.min(numSet));
+        System.out.println(objSimpleLogic.max(numSet));
 
     }
 }
